@@ -1,0 +1,8 @@
+version: 1.0.{build}
+clone_folder: c:\windows-event-log-json
+install:
+  - cinst rust
+build_script:
+  - cargo build
+test_script:
+  - cargo test
