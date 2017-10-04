@@ -1,0 +1,7 @@
+[package]
+name = "windows-event-log-json"
+version = "0.1.0"
+authors = ["Robert C Jensen <rob@computerlab.io>"]
+
+[dependencies]
+winapi = "0.2.8"
